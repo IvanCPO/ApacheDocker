@@ -20,10 +20,6 @@ services:
     build: "cliente/"
     networks:
       - rede_test
-    environment:
-    - DISPLAY=${DISPLAY}
-    volumes:
-    - /tmp/.X11-unix:/tmp/.X11-unix
 
 networks:
   rede_test:
